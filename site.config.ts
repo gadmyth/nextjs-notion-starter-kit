@@ -9,9 +9,9 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'gadmyth's workspace',
+  domain: 'https://www.notion.so/workspace-db3d33ee98e2466f85581e0ee166c800',
+  author: 'Gadmyth',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
