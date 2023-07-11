@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'gadmyth's workspace',
+  name: 'gadmyth\'s workspace',
   domain: 'https://www.notion.so/workspace-db3d33ee98e2466f85581e0ee166c800',
   author: 'Gadmyth',
 
