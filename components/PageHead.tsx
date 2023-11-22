@@ -34,6 +34,27 @@ export const PageHead: React.FC<
 
       <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
+      {config.GAId && (
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${config.GAId}`}
+        />
+      )}
+
+      {config.GAId && (
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', ${config.GAId}, {
+            page_path: window.location.pathname,
+          });
+          `
+          }}
+        />
+      )}
 
       {site && (
         <>
